@@ -30,7 +30,7 @@ elif Unknown == "T":
     p = float(input("What is the pressure in atm?"))
     v = float(input("What is the volume in L?"))
     r = float(0.082)
-    t = float(input("What temperature is the gas  in K?"))
+    n = float(input("How many moles of the gas are there?"))
     Answer = (p * v) / (n * r)
     RoundAnswer = round(Answer, 4)
     print(RoundAnswer)
